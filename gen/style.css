@@ -1,0 +1,47 @@
+/* Анимация при наведении на кнопку "Отправить" */
+# send_button:hover {
+    animation: send_button_hover 0.5s ease-in-out;
+  }
+  
+  @keyframes send_button_hover {
+    from {
+      transform: scale(1);
+      background-color: #7792E3;
+    }
+    to {
+      transform: scale(1.1);
+      background-color: #623A61;
+    }
+  }
+  
+  /* Анимация при наведении на кнопку "Сохранить историю" */
+  # save_history_button:hover {
+    animation: save_history_button_hover 0.5s ease-in-out;
+  }
+  
+  @keyframes save_history_button_hover {
+    from {
+      transform: scale(1);
+      background-color: #7792E3;
+    }
+    to {
+      transform: scale(1.1);
+      background-color: #623A61;
+    }
+  }
+  
+  /* Анимация при наведении на кнопку "Экспортировать код" */
+  # export_code_button:hover {
+    animation: export_code_button_hover 0.5s ease-in-out;
+  }
+  
+  @keyframes export_code_button_hover {
+    from {
+      transform: scale(1);
+      background-color: #7792E3;
+    }
+    to {
+      transform: scale(1.1);
+      background-color: #623A61;
+    }
+  }
